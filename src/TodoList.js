@@ -14,8 +14,9 @@ class TodoList extends Component {
         return (
             <Fragment>
                 <div>
-                    {/*input*/}
+                    <label htmlFor="insertArea">inputhere</label>
                     <input
+                        id = "insertArea"
                         className = 'input'
                         value={this.state.inputValue}
                         onChange={this.handleInputChange.bind(this)}
