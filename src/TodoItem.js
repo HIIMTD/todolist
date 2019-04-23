@@ -22,7 +22,7 @@ class TodoItem extends Component {
 
 TodoItem.propTypes = {
     test:PropTypes.string.isRequired,
-    content :PropTypes.arrayOf(PropTypes.number,propTypes.string),
+    content :PropTypes.arrayOf(PropTypes.number,PropTypes.string),
     deleteItem:PropTypes.func,
     index:PropTypes.number
 }
